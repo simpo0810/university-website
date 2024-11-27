@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device_width,initial_scale=1.0" />
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon" />
+    <title>Kyungdong project website Design</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="logo">
+          <a href="index.html"> <img src="images/FINAL.png" /></a> Global
+        </div>
+
+        <div id="navLinks" class="nav-links">
+          
+            <i class="fas fa-window-close" onclick="MyHide">&times</i></a
+          >
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact-Us.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <a href=""> <i class="fa fa-bars" onclick="MyShow"></i></a>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+    <!-----------contact us content---------->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.2416666297067!2d128.55412201533136!3d38.25070077967567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fd8bc9684d149bb%3A0x9ab34314319ef6a2!2sKyungdong%20University!5e0!3m2!1sen!2skr!4v1637157275062!5m2!1sen!2skr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+
+      <section class="contact-us">
+        <div class="row">
+          <div class="contact-col">
+            <div>
+              <i class="fas fa-home"></i>
+              <span>
+                <h5>24674,Bongpo4-gil,Toseon_myeon</h5>
+                <p>Goseong-gun,Gangwon-do</p>
+              </span>
+            </div>
+            <div>
+              <i class="fas fa-phone"></i>
+              <span>
+                <h5>+82 10-6125-4842/033-262-26</h5>
+                <p>MOnday to Friday,9AM to 6PM</p>
+              </span>
+            </div>
+            <div>
+              <i class="fas fa-envelope-square"></i>
+              <span>
+                <h5>info@kduniv.ac.kr</h5>
+                <p>Email us</p>
+              </span>
+            </div>
+          </div>
+          <div class="contact-col">
+            <form action="form-handler.php" method="dialog">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+              <input type="email" name="email" placeholder="Email" required />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Enter your subject"
+              />
+              <textarea
+                name="message"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button type="submit" class="Submiti">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-----------footer---------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+        Rem tenetur at nemo, minima reiciendis recusandae accusantium
+        voluptatibus totam non officiis commodi, eaque placeat quidem? Explicabo
+        maxime dolores exercitationem omnis. Eveniet.
+      </p>
+      <div class="iconik">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin-square"></i>
+      </div>
+      <p>Made with<i class="fas fa-fist-raised"></i> by INTUNGANE SIMPLICE</p>
+    </section>
+    
+  </body>
+</html>
